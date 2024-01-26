@@ -27,14 +27,7 @@
             <?php endfor; ?>
             </select> <br>
             
-            <label> Yearly Interest Rate:</label>
-            <select name="interest_rate">
-            <?php for ($v = 4; $v <= 12; $v += .5) : ?>
-                <option value="<?php echo $v; ?>" >
-                    <?php echo $v; ?>
-                </option>
-                <?php endfor; ?>
-            </select> <br>
+            
 
             <label>Number of Years:</label>
             <input type="text" name="years"
